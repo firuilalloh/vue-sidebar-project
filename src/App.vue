@@ -4,7 +4,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <i class="fixed bottom-0 text-red-600 text-9xl right-5 bi bi-youtube"></i>
     <i class="fixed mt-4 ml-4 text-2xl text-white animate-bounce bi bi-box-seam"></i>
     <div class="flex justify-end h-screen p-3 bg-gradient-to-r from-indigo-500 to-indigo-300">
         <div class="">
