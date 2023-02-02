@@ -4,17 +4,17 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class="w-full shadow-md bg-slate-100 wrapper fixed">
-      <p class="p-3 w-72 bg-slate-300">INFINITY</p>
-      </div>
-    <div class="text-black w-72 pt-16 h-screen bg-slate-300">
-        <h1 class="mx-2 p-3 rounded-md hover:bg-slate-100">Home</h1>
-      </div>
+    <i class="fixed bottom-0 text-red-600 text-9xl right-5 bi bi-youtube"></i>
+    <i class="fixed mt-4 ml-4 text-2xl text-white animate-bounce bi bi-box-seam"></i>
+    <div class="flex justify-end h-screen p-3 bg-gradient-to-r from-indigo-500 to-indigo-300">
+        <div class="">
+          <router-link class="p-3 font-semibold text-white uppercase duration-300 hover:transition hover:text-sky-300" to="/">home</router-link>
+          <router-link class="p-3 font-semibold text-white uppercase duration-300 hover:transition hover:text-sky-300" to="/team">team</router-link>
+          <router-link class="p-3 font-semibold text-white uppercase duration-300 hover:transition hover:text-sky-300" to="/project">project</router-link>
+          <router-link class="p-3 font-semibold text-white uppercase duration-300 hover:transition hover:text-sky-300" to="/about">about</router-link>
+          <button class="p-2 ml-5 mr-16 font-semibold text-white uppercase duration-300 bg-indigo-500 rounded-full hover:scale-110 hover:bg-indigo-700 hover:transition">get started</button>
+        </div>
+    </div>
   </header>
-  <!-- <hr class="mt-14">
-      <nav class="flex flex-col mx-5 mt-1 text-white">
-        <RouterLink class=" hover:bg-slate-200 p-2 rounded-md mb-1" to="/">Home</RouterLink>
-        <RouterLink class=" hover:bg-slate-200 p-2 rounded-md mb-1" to="/about">About</RouterLink>
-      </nav> -->
   <!-- <RouterView /> -->
 </template>
