@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
     <header>
-        <i class="fixed mt-4 ml-4 text-2xl text-white animate-bounce bi bi-box-seam"></i>
+        <!-- <i class="fixed mt-4 ml-4 text-2xl text-white animate-bounce bi bi-box-seam"></i> -->
         <div class="flex justify-end h-screen pt-6 pr-10 bg-gradient-to-r from-indigo-500 to-indigo-300 font-montserrat">
             <div class="">
                 <router-link
